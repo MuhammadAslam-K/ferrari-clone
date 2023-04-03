@@ -1,0 +1,230 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    display: flex;
+    position: relative;
+}
+.header-text{
+    width: 40%;
+    height: 80px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: white;
+}
+.header-text span{
+    position: relative;
+    top: 20px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.header-logo{
+    width: 10%;
+    height: 80px;
+    position: absolute;
+    left: 45%;
+}
+.header-logo img{
+    width: 90%;
+    background-size:cover;
+}
+.video-main video{
+    width: 100%;
+    background-size: cover;
+}
+.video-text{
+    width: 50%;
+    height: 50px;
+    position: relative;
+    bottom: 400px;
+    left: 400px;
+    text-align: center;
+    color: white;
+}
+.slide{
+    width: 100%;
+    height: 700px;
+    background-color: white;
+    position: absolute;
+    top: 680px;
+}
+.slide-child{
+    width: 80%;
+    height: 500px;
+    position: absolute;
+    top: 50px;
+    left: 140px;
+    display: grid;
+    color: black;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 100px;
+}
+.products{
+    width: 100%;
+    height: 1750px;
+    position: relative;
+    top: 500px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.products img{
+    width: 100%;
+}
+
+.post-1{
+    background-image:url("./assets/png1.avif");
+}
+.post-2{
+    background-image:url("assets/png2.avif");
+}
+.post-3{
+    background-image:url("assets/png3.avif");
+}
+.post-4{
+    background-image:url("assets/png4.avif");
+}
+.post-5{
+    background-image:url("assets/png5.avif");
+}
+.post-6{
+    background-image:url("assets/png6.avif");
+}
+.text{
+    text-align:center;
+    width: 55%;
+    position: relative;
+    top: 400px;
+    left: 200px;
+    color: white;
+}
+.text p{
+    font-size: 15px;
+    font-weight: 400;
+}
+.text h1{
+    font-size: 36px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.subscribtion{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 500px;
+    background-color: rgb(48,48,48);
+}
+.subscribtion-child{
+    width: 30%;
+    height: 50px;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 40px;
+}
+.footer-1{
+    width: 100%;
+    height: 1100px;
+    background-color: rgb(24,24,24);
+    position: relative;
+    top: 500px;
+    color: white;
+}
+.collections{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(5,0.5fr);
+    position: absolute;
+    top: 30px;
+    left: 150px;
+    text-align: center;
+}
+.footer1_sec1 li{
+    list-style: none;
+    line-height: 25px;
+    font-size: 12px;
+    font-weight: 400;
+}
+.Sec1_text_head{
+    margin-bottom: 15px;
+    font-size: 17px;
+    font-weight: 400;
+}
+.social-media{
+    width: 70%;
+    height: 200px;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    position: absolute;
+    top: 480px;
+    left: 150px;
+    padding: 20px 40px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    
+}
+.Footer2_sec1 h2{
+    display: inline;
+    position: relative;
+    top:15px;
+    left: 10px;
+    height: 20px;
+    font-size: 15px;
+    font-weight: 400;
+    
+}
+.Footer2_sec1 i{
+    position: relative;
+    top: 15px;
+}
+.copywrite{
+    width: 80%;
+    height: 200px;
+    position: absolute;
+    top: 800px;
+    left: 150px;
+    text-align: center;
+    line-height: 25px;
+    word-spacing: 3px;
+    font-size: 10px;
+    font-weight: 400;
+}
+.policy{
+    width: 100%;
+    height: 100px;
+    position: relative;
+    top: 1000px;
+    background-color: rgb(48,48,48);
+    font-size: 13px;
+}
+.policy-child{
+    width: 80%;
+    height: 100px;
+    position: relative;
+    left: 150px;
+    top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 60px;
+}
+.shell{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(24,24,24) ;
+    position: relative;
+    top: 1000px;
+    text-align: center;
+}
