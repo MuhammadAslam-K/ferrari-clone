@@ -79,7 +79,14 @@
 .products img{
     width: 100%;
 }
-
+.hovering:hover{
+    background-size: 140%;
+    
+}
+.hovering{
+    background-size: 130%; 
+    transition:background-size 4s ease;
+}
 .post-1{
     background-image:url("./assets/png1.avif");
 }
